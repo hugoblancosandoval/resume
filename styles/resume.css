@@ -4,17 +4,6 @@ body {
     max-width: initial;
 }
 
-@media screen and (min-width: 351px) {
-  .resume {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-  }
-
-  .show-pin {
-      display: inline-block;
-  }
-}
-
 .resume {
     display: grid;
     grid-row-gap: 24px;
@@ -32,8 +21,7 @@ body {
 
 .profile-photo {
     border-radius: 50%;
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 40%;
 }
 
 .profile-summary {
@@ -103,4 +91,20 @@ body {
 
 .no-list-style {
     list-style: none;
+}
+
+
+@media screen and (min-width: 351px) {
+  .resume {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+
+  .work-experience {
+      padding-left: 36px;
+  }
+
+  .job-details {
+      gap: 16px;
+  }
 }
