@@ -94,7 +94,7 @@ body {
 }
 
 
-@media screen and (min-width: 351px) {
+@media screen and (min-width: 377px) {
   .resume {
       display: grid;
       grid-template-columns: 1fr 2fr;
