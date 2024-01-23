@@ -57,8 +57,23 @@ body {
     padding: 24px 8px 24px 8px;
 }
 
+.work-experience-header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .work-experience-title {
     margin-top: 0px;
+}
+
+.download-links {
+    display: flex;
+    gap: 8px;
+}
+
+.download-link, download-link:visited {
+    color: #222 !important; /*sakura is messing this up!*/
+    text-decoration: initial;
 }
 
 .job-details {
@@ -92,7 +107,6 @@ body {
 .no-list-style {
     list-style: none;
 }
-
 
 @media screen and (min-width: 377px) {
   .resume {
